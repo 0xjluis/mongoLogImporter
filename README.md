@@ -10,4 +10,5 @@ and all the hourly files will be read and every log will be imported as a
 new document.
 
 This is mean to be used with the logs produced by Betterstack and sent to a 
-s3 long term instance, these files are in .ztl and needs to be decompressed.
+s3 long term instance, these files are in .zstd and needs to be decompressed.
+Use this to work with .zstd files https://github.com/mcmilk/7-Zip-zstd
